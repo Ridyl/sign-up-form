@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(images/ryan-shumway--n5F3fH0lIY-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    width: 30vw;
+}
+
+.bottom-wrapper {
+    align-self: flex-end;
+}
+
+.right {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(15, 14, 15);
+    color: white;
+}
+
+.sign-up-sheet {
+    background-color: rgb(25, 25, 26);
+}
+
+.create-area {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 256px;
+    height: 48px;
+}
