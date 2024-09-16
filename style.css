@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: fantasy;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -13,11 +14,32 @@ body {
     background-image: url(images/ryan-shumway--n5F3fH0lIY-unsplash.jpg);
     background-size: cover;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 30vw;
 }
 
-.bottom-wrapper {
-    align-self: flex-end;
+.logo-background {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 30vh;
+    width: 30vw;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 88px;
+    width: 88px;
+    margin-right: 12px;
+}
+
+.logo {
+    color: white;
+    font-size: xx-large;
+    text-shadow: 2px 2px 3px black;
 }
 
 .right {
@@ -27,6 +49,16 @@ body {
     justify-content: space-around;
     background-color: rgb(15, 14, 15);
     color: white;
+}
+
+.header,
+.sign-up-sheet,
+.create-area {
+    padding: 48px;
+}
+
+.header {
+    font-size: x-large;
 }
 
 .sign-up-sheet {
