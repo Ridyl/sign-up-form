@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: fantasyImport;
+    src: url(font/Enchanted_Land_DEMO.otf);
+}
+
 body {
-    font-family: fantasy;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -40,7 +45,8 @@ img {
 
 .logo {
     color: white;
-    font-size: xx-large;
+    font-size: 5em;
+    font-family: fantasyImport;
     text-shadow: 2px 2px 3px black;
 }
 
@@ -91,7 +97,7 @@ img {
 
 h2 {
     padding-bottom: 24px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 form {
