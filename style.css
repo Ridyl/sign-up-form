@@ -11,13 +11,15 @@ body {
 }
 
 .left {
-    background-image: url(images/ryan-shumway--n5F3fH0lIY-unsplash.jpg);
+    background-image: url(images/shot-by-cerqueira-HEMgXMFpsAw-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 30vw;
+    padding-bottom: 12px;
 }
 
 .logo-background {
@@ -42,35 +44,98 @@ img {
     text-shadow: 2px 2px 3px black;
 }
 
+.credit {
+    color: white;
+    font-size: small;
+}
+
+.credit a {
+    color: white;
+}
+
 .right {
     width: 70vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(15, 14, 15);
+    /* justify-content: space-around; */
+    background-color: #e36414;
     color: white;
 }
 
 .header,
 .sign-up-sheet,
 .create-area {
-    padding: 48px;
+    padding: 0 128px 0 48px;
 }
 
 .header {
     font-size: x-large;
+    padding-bottom: 48px;
 }
 
+.fake-signup {
+    padding-top: 128px;
+    padding-bottom: 32px;
+}
+
+.fake-hook {
+    font-weight: 600;
+}
+
+
 .sign-up-sheet {
-    background-color: rgb(25, 25, 26);
+    background-color: #fb8b24;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0 8px 10px rgb(59, 34, 0);
+}
+
+h2 {
+    padding-bottom: 24px;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+}
+
+label {
+    font-size: small;
+    font-weight: bold;
+}
+
+input {
+    margin: 0 64px 24px 0;
+    background-color: rgb(241, 241, 241);
+    width: 240px;
+    height: 24px;
+    border-radius: 5px;
+    border: 2px solid #e36414;
+}
+
+ul {
+    list-style: none;
 }
 
 .create-area {
     display: flex;
     flex-direction: column;
+    gap: 32px;
+    padding-top: 42px;
 }
 
 button {
+    background-color: #9a031e;
+    border: none;
+    border-radius: 8px;
+    font-size: large;
+    color: white;
     width: 256px;
     height: 48px;
+    box-shadow: 0 8px 10px #41000c;
+}
+
+.existing a {
+    color: #9a031e;
+    text-decoration: none;
 }
