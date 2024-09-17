@@ -133,7 +133,8 @@ button {
     background-color: #9a031e;
     border: none;
     border-radius: 8px;
-    font-size: large;
+    font-family: fantasyImport;
+    font-size: xx-large;
     color: white;
     width: 256px;
     height: 48px;
