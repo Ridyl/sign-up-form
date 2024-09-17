@@ -57,9 +57,8 @@ img {
     width: 70vw;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    background-color: #e36414;
-    color: white;
+    background-color: #f7ead6;
+    color: #32151b;
 }
 
 .header,
@@ -84,7 +83,7 @@ img {
 
 
 .sign-up-sheet {
-    background-color: #fb8b24;
+    background-color: #dfbb84;
     padding-top: 16px;
     padding-bottom: 16px;
     box-shadow: 0 8px 10px rgb(59, 34, 0);
