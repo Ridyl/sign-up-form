@@ -144,3 +144,7 @@ button {
     color: #9a031e;
     text-decoration: none;
 }
+
+input:focus:invalid {
+    border-color: red;
+}
