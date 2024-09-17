@@ -111,11 +111,12 @@ label {
 
 input {
     margin: 0 64px 24px 0;
+    padding: 1px;
     background-color: rgb(241, 241, 241);
     width: 240px;
     height: 24px;
     border-radius: 5px;
-    border: 2px solid #e36414;
+    border: 2px solid #af8e5d;
 }
 
 ul {
@@ -131,7 +132,7 @@ ul {
 
 button {
     background-color: #9a031e;
-    border: none;
+    border: 2px solid white;
     border-radius: 8px;
     font-family: fantasyImport;
     font-size: xx-large;
@@ -146,6 +147,11 @@ button {
     text-decoration: none;
 }
 
-input:focus:invalid {
+input:focus {
+    border-color: #e36414;
+}
+
+input:invalid {
     border-color: red;
 }
+

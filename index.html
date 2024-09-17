@@ -36,7 +36,7 @@
                         </li>
                         <label for="password">PASSWORD</label>
                         <li class="password">
-                            <input id="pswrd" type="password" name="pswrd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$" required>
+                            <input id="pswrd" type="password" name="pswrd" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_=+-]).{8,16}$" minlength="8" required>
                         </li>
                     </ul>
                 </div>
@@ -48,11 +48,11 @@
                         </li>
                         <label for="phone">PHONE NUMBER</label>
                         <li class="phone-number">
-                            <input id="phone-number" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            <input id="phone-number" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX">
                         </li>
                         <label for="password">CONFIRM PASSWORD</label>
                         <li class="confirm-password">
-                            <input id="pswrd" type="password" name="pswrd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$" required>
+                            <input id="pswrd" type="password" name="pswrd" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_=+-]).{8,16}$" minlength="8" required>
                         </li>
                     </ul>
                 </div>
